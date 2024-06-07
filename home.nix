@@ -31,5 +31,6 @@
         wget
         git
         tmux
+        openvpn
     ];
 }
