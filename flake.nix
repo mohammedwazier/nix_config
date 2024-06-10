@@ -59,7 +59,7 @@
           pkgs.discord
           pkgs.terminal-notifier
           pkgs.home-manager
-          pkgs.oh-my-zsh
+          # pkgs.oh-my-zsh
           pkgs.screenfetch
           pkgs.openvpn
           pkgs.spotify
@@ -100,8 +100,8 @@
       ];
 
       # The platform the configuration will be used on.
-      # nixpkgs.hostPlatform = "aarch64-darwin";
-      nixpkgs.hostPlatform = "x86_64-darwin";
+      nixpkgs.hostPlatform = "aarch64-darwin";
+      # nixpkgs.hostPlatform = "x86_64-darwin";
     };
   in
   {
